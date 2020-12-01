@@ -1,0 +1,36 @@
+Machine Learning Model needed to predict Daily Individual Basketball Players game stats and their team score outcome on a daily basis. (Must know Jupyter Notebook, Google Colab, XGBoost, Pandas, sklearn, Linear Regression Model).
+
+1. Use the current 4 year data I have to discover opportunities.
+
+2. Develop Analytical Methods and Machine Learning Models.
+
+3. Data Cleaning (Clean the data "IF NEEDED" to make sure it is useful for the model, so when you plug it into the model it will give me the best results and the best output and it is formatted correctly for the ML algorithm to actually work and read the data to give me the output I want.)
+
+4. Conduct A/B Testing. (Very Important - Need to do "2" independent tests with "2" different results and see which model gives me the best results.)
+
+The objective of this project is to use the best predictive algorithm for daily basketball players end of game stats, their team score outcome, and the players fantasy points for FanDuel and DraftKings.
+
+With the predictions use a line-up optimization algorithm that predicts the best players to score high and chooses the top 25 lineups for FanDuel and DraftKings.
+
+The Rules:
+
+Select players from a player pool of players playing in games on a give day.
+
+Each player is assigned a salary by FanDuel and DraftKings.
+
+Daily Salary cap is $60,000 for FanDuel with 9 positions to fill (PG, PG, SG, SG, SF, SF, PF, PF, C) Cannot include more than 4 players from any one team. All Salary Cap of $60,000 does not have to be used.
+
+Daily Salary cap is $50,000 for DraftKings with 8 positions to fill (PG, SG, SF, PF, C, F, G, Util) Util position could be any player from (PG, SG, SF, PF, C, F, G) Cannot include more than 3 players from any one team. All Salary Cap of $50,000 does not have to be used.
+
+Each player’s Fantasy Points points performance is determined by their output in the game they play in.
+
+My Data Set Consist of the Last 4 Years of :
+
+1.Historical Box Score Player Stats
+2.Historical Box Score Team Stats
+3.Historical Teams Schedules
+4. Historical Player Daily Fantasy Points Scored
+5. FanDuel Scoring System
+6. DraftKings Scoring System
+
+https://www.youtube.com/watch?v=f_uQoP9kIXI
